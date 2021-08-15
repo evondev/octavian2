@@ -150,6 +150,7 @@ h6 {
 
   .title {
     font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .text {
@@ -448,6 +449,14 @@ h6 {
   }
   .blog-list {
     grid-template-columns: 1fr;
+  }
+  .blog-image {
+    margin-bottom: 20px;
+  }
+  .blog-image img {
+    height: auto;
+    object-fit: cover;
+    width: 100%;
   }
 }
 

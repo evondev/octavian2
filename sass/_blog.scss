@@ -31,5 +31,13 @@
     &-list {
       grid-template-columns: 1fr;
     }
+    &-image {
+      margin-bottom: 20px;
+    }
+    &-image img {
+      height: auto;
+      object-fit: cover;
+      width: 100%;
+    }
   }
 }
